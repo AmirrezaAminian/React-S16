@@ -86,6 +86,12 @@ button:active {
 .form-actions button {
   margin-left: 1rem;
 }
+button:disabled,
+button:hover:disabled ,
+button:active:disabled{
+  background-color: #ccc;
+  cursor: not-allowed
+}
 
 .invalid input {
   border: 1px solid #b40e0e;
